@@ -16,7 +16,7 @@ int main()
 {
   
     fstream plik;
-    plik.open("wizytówka.txt", ios::in);
+    plik.open("card-record.txt", ios::in);
     
     if (plik.good() == false)
     {
